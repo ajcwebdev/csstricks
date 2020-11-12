@@ -1,7 +1,7 @@
 // web/src/components/BlogPostsCell/BlogPostsCell.js
 
 export const QUERY = gql`
-  query BlogPostsQuery {
+  query POSTS {
     posts {
       data {
         title
